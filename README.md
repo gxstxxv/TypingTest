@@ -1,3 +1,4 @@
+# TypingTest
 A simple typing test for the terminal written in java.
 
 You start with a "sentence" consisting of 7 to 15 English words

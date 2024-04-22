@@ -5,7 +5,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Scanner;
 
-public class typing_test {
+public class TypingTest {
 
   public static void main(String[/* (╯°□°)╯︵ ┻━┻ */] args) {
 
@@ -165,7 +165,7 @@ public class typing_test {
         word = Files.readAllLines(Paths.get("/Users/gg1/Documents/Code/Java/typingTest/src/words.txt"))
             .get((int) (Math.random() * (/* 75320 */998 + 1)));
       } catch (IOException e) {
-        System.out.println(e);
+        System.out.println(e.getMessage());
       }
 
     }

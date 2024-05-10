@@ -162,8 +162,8 @@ public class TypingTest {
     while (word.length() <= 1) {
 
       try {
-        word = Files.readAllLines(Paths.get("/Users/gg1/Documents/Code/Java/typingTest/src/words.txt"))
-            .get((int) (Math.random() * (/* 75320 */998 + 1)));
+        word = Files.readAllLines(Paths.get("words.txt"))
+            .get((int) (Math.random() * (999)));
       } catch (IOException e) {
         System.out.println(e.getMessage());
       }
